@@ -1,0 +1,150 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.nav-bg{
+  /* background-color: #fff; */
+  background: transparent;
+}
+.navbar-brand{
+  font-size: 2.0rem!important;
+font-weight: bold;
+}
+.nav-link{
+  font-size: 1.1rem!important;
+  font-weight: bold;
+}
+.brand-name{
+  color: #3498db;
+}
+.active-class{
+  color: #3498db!important;
+}
+
+/* ********************home********** */
+
+ .home-div{
+   margin-top: 70px;
+  height: 65vh;
+  width: 100%;
+  
+
+}
+.heading{
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  color: black;
+}
+.heading-2{
+  font-size: 24px;
+  color: #484848;
+  /* font-weight: bold; */
+}
+.btn-get-started{
+  border: 2px solid #3498db;
+  padding: 7px 20px;
+  border-radius: 50px;
+  text-decoration: none;
+  color: #3498db;
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-size: 16px;
+  transition: 0.5s;
+  display: inline-block;
+}
+.btn-get-started:hover{
+  background-color: #3498db;
+  color: #fff;
+  outline: none;
+  
+}
+.header-img{
+text-align: right;
+/* background-color: #3498db; */
+  }
+  .header-img img{
+    height: 300px;
+    width: 100%;
+  }
+
+
+  .animated{
+    animation: up-down 2s ease-in-out infinite alternate-reverse    both;
+
+  }
+
+  @-webkit-keyframes up-down{
+    0%{
+      transform: translateY(15px);
+
+    }100%{
+transform: translateY(-15px);
+    }
+  }
+  
+  @keyframes up-down{
+    0%{
+      transform: translateY(15px);
+
+    }100%{
+transform: translateY(-15px);
+    }
+  }
+
+  /* **********services********** */
+
+/* .card-div{
+  height: 100px;
+  width: 100%;
+} */
+/* ****************media query************** */
+
+
+/* ******************desktop**************** */
+
+
+/* ******************tablet and  ipad**************** */
+@media (min-width:769px) and (max-width:1024) {
+  .home-div{
+    
+   height: 40vh;
+   width: 100%;
+   
+ 
+ }
+ .home-div .part-1{
+  margin-top: 100px;
+ }
+}
+
+
+/* ***************mobile phones*************** */
+@media (max-width:768px){
+  .home-div{
+    margin-top: 60px;
+   height: 70vh;
+   width: 100%;
+   
+ 
+ }
+ .header-img img{
+  height: 250px;
+  width: 100%;
+}
+
+}
+
+
+@media (max-width:468px){
+  .home-div{
+    margin-top: 30px;
+   height: 92vh;
+   width: 100%;
+   
+ 
+ }
+
+}
